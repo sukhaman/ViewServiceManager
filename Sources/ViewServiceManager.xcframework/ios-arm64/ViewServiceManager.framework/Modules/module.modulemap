@@ -1,0 +1,11 @@
+framework module ViewServiceManager {
+  umbrella header "ViewServiceManager.h"
+  export *
+
+  module * { export * }
+}
+
+module ViewServiceManager.Swift {
+  header "ViewServiceManager-Swift.h"
+  requires objc
+}
